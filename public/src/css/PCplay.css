@@ -1,0 +1,187 @@
+.pc_play{
+	width: 100%;
+    margin: 0 auto;
+	font-size: 12px;
+}
+.pay_main{
+	clear: both;
+    color: #555;
+    background: #fafafa;
+    overflow: hidden;
+}
+.pay_main .pay_form{
+	width: 94%;
+    float: left;
+    padding: 15px 19px;
+    margin: 25px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+}
+.pay_main .pay_form .pay_title{
+	width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+.pay_title strong{
+	padding-bottom: 2px;
+    border-bottom: 2px solid #5abb1f;
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    color: #5abb1f;
+    font-weight: normal;
+}
+.pay_title em{
+	font-style: normal;
+}
+.pay_title span{
+	float: right;
+    padding: 10px 10px 0 0;
+    color: #16b;
+}
+.pay_main .pay_form .pay_text{}
+.pay_text li{
+	clear: both;
+    width: 94%;
+    padding: 5px 0;
+}
+.pay_text li em{
+	width: 100px;
+    float: left;
+    line-height: 28px;
+    text-align: right;
+}
+.pay_text li strong{
+	line-height: 28px;
+    font-size: 14px;
+    color: #5abb1f;
+    font-weight: bold;
+}
+.pay_text li b{
+	float: left;
+    margin-top: 3px;
+    font-family: Arial;
+    color: #f70;
+    font-size: 16px;
+}
+.pay_text li .operate_num{
+	height: 26px;
+    line-height: 26px;
+}
+.pay_main .pay_form .line{
+	clear: both;
+    display: block;
+    height: 0;
+    margin: 30px 0 15px 0;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+}
+.pay_main .pay_form .price_all{
+	clear: both;
+    width: 100%;
+    float: left;
+	padding: 10px 0;
+    background: #eaf9de;
+}
+.price_all span{
+	width: 100px;
+    float: left;
+    line-height: 28px;
+    text-align: right;
+    padding-top: 11px;
+}
+.price_all .play_price{
+    width: 80%;
+    float: right;
+    margin-right: 60px;
+}
+.price_all .play_price strong{
+	float: left;
+    margin-top: -2px;
+    font-family: Arial;
+    color: #f70;
+}
+.price_all .play_price strong b{
+	font-size: 30px;
+	font-weight: bold;
+}
+.pay_form .pay_text1{}
+.pay_form .pay_text1 .pay_name{
+	clear: both;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    height: 28px;
+}
+.pay_text1 .pay_name span{
+	width: 100px;
+    float: left;
+    line-height: 28px;
+    text-align: right;
+}
+.pay_text1 .pay_name span i{
+	display: inline-block;
+    width: 9px;
+    color: #f70;
+    font-size: 16px;
+    text-align: right;
+}
+.pay_text1 .pay_kuang{
+	width: 80%;
+    float: right;
+    margin-top: 3px;
+    margin-right: 60px;
+}
+.pay_text1 .pay_kuang input{
+	width: 180px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: -4px;
+    padding: 0 3px;
+    border: 1px solid #d7d6d6;
+    vertical-align: middle;
+}
+.pay_text1 .pay_kuang em{
+	padding-left: 5px;
+    color: #999;
+}
+.pay_message{
+	clear: both;
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+}
+.pay_message span{
+	width: 100px;
+    float: left;
+    line-height: 28px;
+    text-align: right;
+}
+.pay_message textarea{
+	width: 600px;
+	height: 80px;
+}
+.submit_con{
+	padding: 0 0 20px 130px;
+    height: 65px;
+    float: left;
+}
+.submit_con span{
+	display: inline-block;
+    float: left;
+    padding: 0 20px;
+    line-height: 38px;
+    border-bottom: 3px solid #ea6223;
+    border-radius: 3px;
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background: #ff8b00;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.submit_con em{
+	display: inline-block;
+	color:#999;
+	margin-top: 20px;
+}

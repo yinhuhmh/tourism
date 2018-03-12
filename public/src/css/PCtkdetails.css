@@ -1,0 +1,396 @@
+/*票价详情页导航*/
+.pc_detail{
+    overflow: hidden;
+    margin-top: 20px;
+    font-family: Microsoft Yahei,Arial,sans-serif;
+}
+.pc_midnav{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #a7a7a7;
+    overflow: hidden;
+}
+.pc_midnav span{
+    float: left;
+    padding-right:6px;
+    font-size: 14px;
+}
+/*票价详情页内容*/
+.pc_detail .pc_tkdetail{
+	width: 92%;
+    margin-left: 60px;
+	overflow: hidden;
+}
+.pc_tkdetail .title{
+	height: 44px;
+    text-align: center;
+    border-bottom: 2px solid #f8f8f8;
+    font-size: 24px;
+}
+.pc_tkdetail .title h3{
+    color: #008ad6;
+	font-weight: 400;
+    height: 43px;
+    border-bottom: 1px solid #ebebeb;
+}
+.pc_tkdetail .content{
+    padding: 20px;
+    line-height: 28px;
+    overflow: hidden;
+}
+.pc_tkdetail .content p{
+    text-indent: 2em;
+    font-size: 14px;
+    overflow: hidden;
+}
+.content p img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+/*游记详情页导航*/
+.pc_tldetail{
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Microsoft Yahei,Arial,sans-serif;
+}
+/*游记详情页内容*/
+.pc_tldetail .line_h{
+    zoom: 1;
+    height: 1px;
+    background: #ebebeb;
+    border-bottom: 2px solid #e8e8e8;
+}
+.pc_tldetail .pc_tltop{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.pc_tldetail .pc_tltop .image{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+}
+.pc_tltop .image img{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
+.pc_tltop .title{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.pc_tltop .title h3{
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: 500;
+    height: 44px;
+    line-height: 44px;
+    color: #008ad6;
+}
+.pc_tltop .title h4{
+    font-size: 100%;
+    font-weight: 500;
+    color: #333;
+}
+.pc_tltop .title h4 span{
+    display: inline-block;
+    padding: 0 8px 0 40px;
+}
+.pc_tltop .collect{
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+.pc_tltop .collect span{
+    float: left;
+    margin-left: 17px;
+    color: #666;
+    cursor: pointer;
+}
+.pc_tltop .collect span:hover{
+    color: #f60;
+}
+.pc_tltop .collect span i{
+    display: inline-block;
+    margin: 4px 8px 0 0;
+    vertical-align: middle;
+    background-image: url("../images/sprite.png");
+    background-position: -473px -52px;
+    width: 23px;
+    height: 24px;
+}
+.pc_tltop .collect span em{
+    display: inline-block;
+    margin: -4px 8px 0 0;
+    vertical-align: middle;
+    background-image: url("../images/sprite.png");
+    background-position: -446px -326px;
+    width: 25px;
+    height: 25px;
+}
+.pc_tldetail .pc_center{
+    overflow: hidden;
+    padding: 30px 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 38px;
+}
+.pc_tldetail .pc_center span{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.pc_center span i{
+    float: left;
+    margin-right: 10px;
+    background-image: url("../images/sprite.png");
+    background-position: -207px -150px;
+    width: 40px;
+    height: 40px;
+}
+.pc_tldetail .pc_center .way{
+    overflow: hidden;
+    width: 100%;
+    height: 38px;
+    margin-left: 147px;
+}
+.way strong{
+    font-weight: normal;
+}
+.way strong em{
+    height: 2px;
+    width: 40px;
+    margin: 18px 8px;
+    color: #c8def0;
+}
+.pc_tlcontent{
+    padding: 20px;
+    line-height: 28px;
+    overflow: hidden;
+}
+.pc_tlcontent p{
+    text-indent: 2em;
+    font-size: 14px;
+    overflow: hidden;
+}
+.pc_tlcontent img{
+    margin: 10px auto;
+    width: 680px;
+    text-align: center!important;
+    display: block;
+}
+/*游记详情页导航*/
+.pc_hldetail{
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Microsoft Yahei,Arial,sans-serif;
+}
+/*游记详情页内容上部*/
+.pc_hlcontent{
+    width: 100%;
+}
+.pc_hlcontent .detail_top{
+    padding: 30px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.detail_top img{
+    width: 550px;
+    height: 365px;
+    float: left;
+    vertical-align: top;
+}
+.detail_top .right{
+    width: 590px;
+    float: right;
+    color: #333;
+    position: relative;
+}
+.detail_top .right h2{
+    font-size: 18px;
+    line-height: 28px;
+    max-height: 50px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-right: 90px;
+}
+.right h2 i{
+    display: inline-block;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+    padding: 0 10px;
+    margin: 0 10px 0 5px;
+    background: #f60;
+    border-radius: 2px;
+}
+.right span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.right span i{
+    margin: 4px 4px 0 10px;
+    font-style: normal;
+    background-image: url("../images/sprite.png");
+    background-position: -473px -457px;
+    width: 13px;
+    height: 13px;
+    float: left;
+}
+.right span:hover{
+    cursor:pointer;
+    color: #f60;
+}
+.right ul{
+    font-style: normal;
+    margin-top: 40px;
+}
+.right ul li{
+    line-height: 30px;
+}
+.right ul li b{
+    color: #999;
+}
+.right .step{
+    padding: 15px 20px;
+    background: #f8f8f8;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.right .step .title{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.right .step img{
+    width: 550px;
+    height: 74px;
+}
+.refer{
+    border: 1px solid #ddd;
+    color: #666;
+    margin: 40px 0 0;
+}
+.refer .title{
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.refer .title span{
+    display: inline-block;
+    color: #fff;
+    background-image: url("../images/sprite.png");
+    background-position: 0 0;
+    width: 179px;
+    height: 50px;
+}
+.title span i{
+    display: inline-block;
+    margin: 13px 10px 0 20px;
+    float: left;
+    background-image: url("../images/sprite.png");
+    background-position: -446px -351px;
+    width: 26px;
+    height: 27px;
+}
+.refer .content{
+    padding: 20px 20px 40px;
+    line-height: 34px;
+    font-size: 16px;
+    color: #666;
+}
+.refer .content .table{
+    overflow: hidden;
+}
+.content .table .thead{
+    width: 100%;
+    font-size: 14px;
+    overflow: hidden;
+}
+.table .thead .th{
+    background: #f7f8f8;
+    color: #333;
+    line-height: 40px;
+    border-bottom: none;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    float: left;
+}
+.table .span{
+    display: inline-block;
+    padding-left: 20px;
+}
+.table ul li{
+    font-size: 14px;
+    line-height: 45px;
+}
+.table ul li div{
+    display: inline-block;
+    background: #fff;
+    border-bottom: 1px dashed #ddd;
+}
+.table ul li:last-child div{
+    border-bottom: 1px solid #ddd;
+}
+.table ul li div strong{
+    display: inline-block;
+    width: 80px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: #ff8f44;
+    color: #fff;
+}
+.refer_center{
+    overflow: hidden;
+}
+.refer_center .content .text{
+    overflow: hidden;
+    text-align: justify;
+    text-indent: 2em;
+}
+.refer_bottom{
+    overflow: hidden;
+}
+.refer_bottom .content .text{
+    text-align: justify;
+}
+.refer_bottom .content .text p{
+    text-indent: 2em;
+}
+.refer_bottom .content ul{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.refer_bottom .content ul li{
+    line-height: 46px;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: -1px;
+    position: relative;
+}
+.refer_bottom .content ul li strong{
+    display: inline-block;
+    width: 122px;
+    height: 46px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #333;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.refer_bottom .content ul li div{
+    overflow: hidden;
+    margin-left: 122px;
+}

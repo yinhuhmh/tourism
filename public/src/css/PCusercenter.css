@@ -1,0 +1,468 @@
+.pc_usercenter{
+	width: 100%;
+    margin: 20px auto 40px;
+    position: relative;
+}
+.pc_usercenter .user_list{
+	width: 100%;
+    border: 1px solid #ddd;
+    padding-bottom: 120px;
+    margin-right: 20px;
+}
+.user_list li{
+	font-size: 14px;
+    text-indent: 30px;
+    display: block;
+    line-height: 40px;
+    margin-bottom: 5px;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+/*个人资料*/
+.usercontent{
+    width: 95%;
+    font-size: 14px;
+    margin-left: 5%;
+}
+.usertitle{
+    overflow: hidden;
+    height: 38px;
+    border-bottom: 2px solid #008ad6;
+    margin-bottom: 20px;
+}
+.usertitle span{
+    color: #fff;
+    background: #008ad6;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 23px;
+}
+.usercontent .box{
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: relative;
+}
+.usercontent .box .top{
+    padding: 20px;
+    overflow: hidden;
+}
+.box .top .userleft{
+    width: 45%;
+    border-right: 1px solid #ddd;
+    float: left;
+}
+.box .top .userleft .headimg{
+    line-height: 32px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 0 10px;
+    float: left;
+    font-style: normal;
+    font-weight: 500;
+}
+.box .top .userright{
+    width: 40%;
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+.box .top .userright div{
+    line-height: 32px;
+    margin-bottom: 8px;
+    color: #333;
+}
+.userright div span{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    float: left;
+}
+.userright div input{
+    height: 25px;
+    line-height: 25px;
+    padding: 9px 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.userright div .user_nan,.userright div .user_nv{
+    height: 14px;
+    line-height: 14px;
+}
+.usercontent .submit{
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+.userbtn{
+    background: #f60;
+    border-color: #f60;
+    color: #fff;
+    border-radius: 2px;
+    height: 48px;
+    line-height: 48px;
+    width: 158px;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+/*修改密码*/
+.userupdate{
+    width: 95%;
+    font-size: 14px;
+    margin-left: 5%;
+}
+.userupdate .useritem{
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: relative;
+}
+.userupdate .useritem div{
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+.useritem div label{
+    float: left;
+    position: relative;
+    min-width: 20px;
+    min-height: 32px;
+    overflow: hidden;
+}
+.useritem div label i{
+    display: inline-block;
+    width: 94px;
+    color: #333;
+    font-style: normal;
+    cursor: pointer;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    font-size: 14px;
+    text-align: right;
+}
+.useritem div label input{
+    width: 230px;
+    height: 34px;
+    line-height: 14px;
+    padding: 9px 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    float: left;
+    color: #666;
+}
+.useritem div span{
+    margin-left: 10px;
+    color: #999;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+/*我的收藏*/
+.usercollect{
+    width: 95%;
+    font-size: 14px;
+    margin-left: 5%;
+}
+.ant-tabs-bar{
+    border-bottom: 2px solid #008ad6!important;
+}
+.ant-tabs-nav-container{
+    margin-bottom: 0!important;
+}
+.ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+    width: 102px!important;
+    border:0!important;
+    border-radius: 0!important;
+    margin-right:0!important;
+    text-align: center!important;
+}
+.ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active{
+    background: #008ad6!important;
+    color: #fff!important;
+    padding-bottom:6px!important;
+}
+.ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-nav-container{
+    height: 36px!important;
+    line-height: 29px!important;
+}
+.usercollect .collectbox{
+    width: 100%;
+    font-size: 14px;
+}
+.collectbox .collecttop{
+    padding: 12px 10px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.collectbox .collecttop .table{
+    display: inline-block;
+    width: 590px;
+    text-align: left;
+}
+.collecttop .table span{
+    display: inline-block;
+    margin: 0 155px 0 30px;
+    color: #f60;
+    cursor: pointer;
+}
+.collecttop strong{
+    display: inline-block;
+    text-align: center;
+}
+.usercollect .collectbox .collectitem{
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.collectitem .collecttable{
+    width: 100%;
+    overflow: hidden;
+}
+.collecttable .collectleft{
+    width: 60%;
+    line-height: 28px;
+    text-align: center;
+    color: #333;
+    float: left;
+    overflow: hidden;
+}
+.collecttable .collectleft img{
+    display: inline-block;
+    padding: 10px;
+    width: 220px;
+    height: 145px;
+    float: left;
+}
+.collecttable .collectleft .text{
+    float: left;
+    width: 295px;
+    text-align: left;
+}
+.collectleft .text .title{
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0 15px;
+}
+.collectleft .text ul{
+    width: 100%;
+}
+.collectleft .text ul li{
+    width: 100%;
+    float: left;
+    position: relative;
+    font-style: normal;
+}
+.collectleft .text ul li span{
+    display: inline-block;
+    width: 56px;
+    line-height: 28px;
+    white-space: nowrap;
+    word-spacing: 8px;
+    letter-spacing: 28px;
+    position: absolute;
+}
+.collectleft .text ul li i{
+    position: absolute;
+    left: 56px;
+}
+.collectleft .text ul li em{
+    overflow: hidden;
+    margin-left: 77px;
+}
+.collectitem .collecttable .price{
+    width: 25%;
+    float: left;
+    padding: 55px 0;
+    line-height: 28px;
+    text-align: center;
+}
+.collecttable .price span{
+    color: #f60;
+}
+.collecttable .price span em{
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+}
+.collectitem .collecttable .operation{
+    width: 15%;
+    float: left;
+    padding: 40px 0;
+    line-height: 28px;
+    text-align: center;
+}
+.collecttable .operation p:nth-child(1){
+    width: 82px;
+    padding: 0 24px;
+    margin-left: 35px;
+    height: 30px;
+    line-height: 30px;
+    background: #f60;
+    border-color: #f60;
+    font-size: 16px;
+    border-radius: 2px;
+    color: #fff;
+}
+.collecttable .operation p:nth-child(2){
+    color: #333;
+}
+.collecttable .operation p:nth-child(2):hover{
+    color:#f60;
+    cursor: pointer;
+}
+
+
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.avatar-uploader {
+    display: block;
+    border: 1px dashed #999;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.avatar-uploader-trigger {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 60px;
+    color: #999;
+}
+.anticon-plus:before{
+    padding: 35%;
+}
+
+
+/*我的订单*/
+.indentbox{
+    width: 100%;
+    display: block;
+}
+.indentbox .indenttop{
+    width: 100%;
+    background: #eee;
+}
+.indenttop strong{
+    display: inline-block;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+}
+.indentbox ul{}
+.indentbox ul li{
+    width: 100%;
+    margin-top: 15px;
+    background: #eee;
+}
+.indentbox ul li .order_top{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.order_top span{
+    margin: 0 0 0 20px;
+    color: #999;
+}
+.order_top span em{
+    color: #555;
+    font-style: normal;
+}
+.indentbox ul li .order_bottom{
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.order_bottom .order_desc{
+    width: 100%;
+    overflow: hidden;
+}
+.order_bottom .order_desc .order_left{
+    width: 48%;
+    line-height: 28px;
+    text-align: center;
+    color: #333;
+    float: left;
+    overflow: hidden;
+}
+.order_desc .order_left img{
+    display: inline-block;
+    padding: 10px;
+    width: 35%;
+    height: 145px;
+    float: left;
+}
+.order_desc .order_left .order_text{
+    float: left;
+    width: 65%;
+    text-align: left;
+}
+.order_left .order_text b{
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0 15px;
+}
+.order_left .order_text strong{
+    width: 100%;
+    float: left;
+    position: relative;
+    font-style: normal;
+}
+.order_text strong span{
+    display: inline-block;
+    width: 56px;
+    line-height: 28px;
+    white-space: nowrap;
+    word-spacing: 8px;
+    letter-spacing: 28px;
+    position: absolute;
+    color: #aaa;
+}
+.order_text strong i{
+    position: absolute;
+    left: 56px;
+}
+.order_text strong em{
+    overflow: hidden;
+    margin-left: 77px;
+}
+.order_desc .order_common{
+    width: 10%;
+    float: left;
+    padding: 55px 0;
+    line-height: 28px;
+    text-align: center;
+}
+.order_desc .order_operation{
+    width: 10%;
+    float: left;
+    padding: 40px 0;
+    line-height: 28px;
+    text-align: center;
+}
+.order_desc .order_operation p{
+    width: 82px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #f60;
+    border-color: #f60;
+    font-size: 16px;
+    border-radius: 2px;
+    color: #fff;
+}
